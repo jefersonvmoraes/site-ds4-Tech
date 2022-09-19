@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.header .nav-link {
+  font-weight: bold;
+  font-size: 20px;
+  color: #09315c;
+}
+.header .nav-link:hover {
+  color: #0963c4;
+}
+.header .link-title {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 34px;
+}
+.header .link-title:hover {
+  color: #09315c;
+}
+.header .site-description {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+.header .icon-menu {
+  color: #09315c;
+}
+.header .btn-menu {
+  background-color: #082444;
+  color: white;
+  font-weight: 400;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.btn-color {
+  background-color: #09315c;
+  border: none;
+  color: white;
+}
+
+.btn-color:hover {
+  background-color: #0963c4;
+  color: white;
+}
+
+.footer {
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 23%;
+}
+.footer .text-footer {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #444444;
+}
+
+@media (max-width: 575px) {
+  .header {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header .btn-menu {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .logoDs4 {
+    width: 200px;
+  }
+}
+@media (max-width: 624px) {
+  .header .link-title {
+    font-size: 25px;
+  }
+}
+@media (max-width: 575px) {
+  .header {
+    flex-direction: row;
+  }
+}
+.container00 {
+  min-height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/coding-ga1a3aae05_1920.webp);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.inner-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  text-align: left;
+  max-width: 800px;
+}
+.inner-container .title-center {
+  font-size: 59px;
+  font-weight: bold;
+}
+.inner-container .text-paragraph {
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .inner-container .title-center {
+    font-size: 49px;
+  }
+}
+.container01 {
+  display: flex;
+  align-items: center;
+  background-image: url("..//../img/backgrounkds4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inner-container2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: black;
+  text-align: left;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0.7px 1.6px 3.6px rgba(0, 0, 0, 0.001), 1.4px 3.3px 7px rgba(0, 0, 0, 0.004), 2.4px 5.7px 10.5px rgba(0, 0, 0, 0.007), 4.1px 9.7px 15.1px rgba(0, 0, 0, 0.013), 7.9px 18.4px 23.8px rgba(0, 0, 0, 0.022), 29px 68px 69px rgba(0, 0, 0, 0.05);
+}
+.inner-container2 .title-center {
+  font-size: 59px;
+  font-weight: bold;
+}
+.inner-container2 .text-paragraph {
+  font-size: 20px;
+}
+
+.info-contact {
+  margin-top: 0px;
+  background-color: #282828;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: white;
+  padding: 100px;
+}
+.info-contact div {
+  display: block;
+  width: 300px;
+  padding: 15px 0px;
+  text-align: left;
+}
+.info-contact div a {
+  color: white;
+}
+
+.title-caruosel {
+  color: rgb(60, 60, 60);
+}
+
+/*# sourceMappingURL=style.css.map */

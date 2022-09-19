@@ -1,0 +1,36 @@
+.container00{
+  min-height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/coding-ga1a3aae05_1920.webp);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  display: flex;
+  align-items: center;
+}
+
+.inner-container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  text-align: left;
+  max-width: 800px;
+
+  .title-center{
+    font-size: 59px;
+    font-weight: bold;
+  }
+
+  .text-paragraph{
+    font-size: 20px;
+  }
+}
+
+@media (max-width:767px) {
+  .inner-container{
+    .title-center{
+      font-size: 49px;
+    }
+  }
+  
+}
