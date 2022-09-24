@@ -34,3 +34,19 @@
   }
   
 }
+@media (max-width:320px) {
+  .inner-container{
+    .title-center{
+      font-size: 39px;
+    }
+    .text-paragraph{
+      font-size: 15px;
+    }
+  }
+  
+}
+@media (max-width:375px) {
+  .container00{
+    padding: 0px;
+  }
+}
