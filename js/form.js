@@ -11,7 +11,7 @@ document.getElementById('formulario').addEventListener('submit', function(ev){
   dadosForm.email = document.getElementById('email').value
   dadosForm.message = document.getElementById('message').value
   console.log(dadosForm)
-  alert('Entraremos em contato em breve' + dadosForm)
+  alert('Entraremos em contato em breve ' + dadosForm.name)
   document.getElementById('name').value = ''
   document.getElementById('tell').value = ''
   document.getElementById('email').value = ''
